@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/img_dt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tl_dt"
+                android:textSize="25dp"
+                android:fontFamily="@font/poppins_black"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                android:text="MacBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:textColor="#E11B0C"
+                   android:text="Rp."
+                   android:textSize="20dp"
+                   android:layout_marginStart="44dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:id="@+id/prc_dt"
+                   android:textColor="#E11B0C"
+                   android:text="500000"
+                   android:textSize="20dp"
+                   android:layout_marginStart="5dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="27dp"
+                android:textColor="#685A5A"
+                android:text="Description:"
+                android:textSize="20dp"
+                android:layout_marginStart="44dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/des_dt"
+                android:textSize="19dp"
+                android:text="lorem ipsum dolor si amet"
+                android:fontFamily="@font/calibri"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+               android:id="@+id/b_buy"
+               android:text="Buy"
+               android:textColor="#fff"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="25dp"
+               android:layout_marginRight="40dp"
+               android:layout_marginLeft="40dp"
+               android:background="@drawable/j_tombol"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
